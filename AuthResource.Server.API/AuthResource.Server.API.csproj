@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>AuthResource.Server.API</AssemblyName>
+    <!--<OutputType>Library</OutputType>
+    <IsPackable>true</IsPackable>
+    <PackageVersion>1.0.0</PackageVersion>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthLibrary.Auth.Common" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+  </ItemGroup>
+
+</Project>
